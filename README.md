@@ -100,5 +100,7 @@ in each letter can vary from word to word as well as the coefficient.
 
 ### Examples of valid user input:
 (X-1)(X-2)(X-3)\*2+(X-4)(x-67)(x-12)\*123
+
 (X-1)\*1
+
 (X-0.5)(X-1.12)(X--4)\*-12.75+(X-2.1)(X--3)(X--1.09)\*3

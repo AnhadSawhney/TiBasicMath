@@ -46,7 +46,7 @@ Instructions:
 3. Enter sides. (Enter `0` if you want the calculator to find the value)
 
 ### Sinusoid: 
-Given the coordinates of two adjacent peaks, find the equation of the sinusoid function (in the form f(x)=Asin(B(X+C))+D), with both sin and cos. 
+Given the coordinates of two adjacent peaks, find the equation of the sinusoid function (in the form `f(x)=Asin(B(X+C))+D)`), with both sin and cos. 
 
 *NOTE: This program should be run in radian mode.*
 

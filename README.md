@@ -90,7 +90,7 @@ These programs will be erased if the ram on the calculator is reset. To prevent 
 1. Press `2nd`
 2. Press `mem` (plus)
 3. Select `Mem management` (2)
-3. Select `Prgm` (7)
+3. Select `prgm` (7)
 4. Move the cursor to the program. If it has a `*` before it it is archived. Press `enter` to archive/unarchive the selected program.
 
 # USER INPUT FOR SIMPLIFY AND NEWSIMPL: 

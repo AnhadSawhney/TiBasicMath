@@ -1,5 +1,5 @@
 # TiBasicMath
-A collection of programs written in Ti-Basic to solve precalculus problems
+A collection of programs written in Ti-Basic to solve precalculus problems.
 
 # Programs:
 ### Lagrange: 
@@ -26,7 +26,7 @@ Instructions:
 ### Newsimpl: 
 Takes the output of the lagrange program (the function stored in str2) or user input and simplifies it.
 
-*NOTE: This program is not compatible with old firmware versions (ie. ones that dont have tostring(). This program can deal with functions up to the 5th degree (quintics).*
+*NOTE: This program is not compatible with old firmware versions (ie. ones that dont have `tostring(`. This program can deal with functions up to the 5th degree (quintics).*
 
 Instructions:
 1. Run the program
@@ -42,11 +42,13 @@ calculates the other 3 measurements along with the area and radius of the inscri
 
 Instructions:
 1. Run the program
-2. Enter angles. (Enter 0 if you want the calculator to find the value)
-3. Enter sides. (Enter 0 if you want the calculator to find the value)
+2. Enter angles. (Enter `0` if you want the calculator to find the value)
+3. Enter sides. (Enter `0` if you want the calculator to find the value)
 
 ### Sinusoid: 
 Given the coordinates of two adjacent peaks, find the equation of the sinusoid function (in the form f(x)=Asin(B(X+C))+D), with both sin and cos. 
+
+*NOTE: This program should be run in radian mode.*
 
 Instructions:
 1. Run the program

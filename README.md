@@ -14,7 +14,7 @@ Instructions:
 
 ### Simplify: 
 Takes the output of the lagrange program (the function stored in str2) or user input and simplifies it.
-NOTE: Simplify is not capable of processing functions more complex than cubics.
+*NOTE: Simplify is not capable of processing functions more complex than cubics.*
 Instructions:
 1. Run the program
 2. Select user input or existing (lagrange) output
@@ -22,7 +22,7 @@ Instructions:
 
 ### Newsimpl: 
 Takes the output of the lagrange program (the function stored in str2) or user input and simplifies it.
-NOTE: This program is not compatible with old firmware versions (ie. ones that dont have tostring(). This program can deal with functions up to the 5th degree (quintics).
+*NOTE: This program is not compatible with old firmware versions (ie. ones that dont have tostring(). This program can deal with functions up to the 5th degree (quintics).*
 Instructions:
 1. Run the program
 2. Select user input or existing (lagrange) output
@@ -32,6 +32,7 @@ Instructions:
 Given 3 measurements of a triangle with at least one side, (either 2 sides + one angle, 2 angles + one side or 3 sides),
 calculates the other 3 measurements along with the area and radius of the inscribed circle. Will calculate both cases of SSA.
 (Uses law of sines/cosines and heron's formula)
+*NOTE: Calculator and angles must be in degree mode.*
 Instructions:
 1. Run the program
 2. Enter angles. (Enter 0 if you want the calculator to find the value)

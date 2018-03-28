@@ -1,5 +1,7 @@
 # TiBasicMath
-A collection of programs written in Ti-Basic to solve precalculus problems.
+A collection of programs written in Ti-Basic to solve precalculus problems. 
+
+*NOTE: NEGATIVE NUMBERS IN ALL USER INPUT ARE ENTERED USING THE NEGATIVE NUMBER SIGN POSITIONED AT THE BOTTOM RIGHT OF THE KEYPAD.*
 
 # Programs:
 ### Lagrange: 
@@ -107,13 +109,17 @@ Format must be `(X-@)(X-@)(X-@)...(X-@)*@+(X-@)(X-@)(X-@)...(X-@)*@`
 Each letter is in the format `(X-@)` where `@` is a real number. Everything except `@` must remain constant in all the letters.
 If you want to do X+something then make it `(X--@)`. The letters are not separated from each other with anything.
 
+*NOTE: The second minus sign is not the operation minus. It is the negative number sign positioned at the bottom of the keypad.*
+
 Several letters strung together is a word. All words must have the same number of letters. 
 The words must end with a coefficient in the form `*@` where `@` is a real number. 
 If you do not want to multiply the word by anything end it with `*1`. Words are strung together with `+` and the values of `@`'s
 in each letter can vary from word to word as well as the coefficient.
 
+*NOTE: The minus sign in the coefficient is not the operation minus. It is the negative number sign positioned at the bottom of the keypad.*
+
 ### Examples of valid user input:
-`(X-1)(X-2)(X-3)*2+(X-4)(x-67)(x-12)*123`
+`(X-1)(X-2)(X-3)*2+(X-4)(X-67)(X-12)*123`
 
 `(X-1)*1`
 

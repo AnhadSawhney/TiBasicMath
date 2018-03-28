@@ -96,7 +96,7 @@ These programs will be erased if the ram on the calculator is reset. To prevent 
 3. Select `prgm` (7)
 4. Move the cursor to the program. If it has a `*` before it it is archived. Press `enter` to archive/unarchive the selected program.
 
-# USER INPUT FOR SIMPLIFY AND NEWSIMPL: 
+# User Input Formatting for SIMPLIFY and NEWSIMPL: 
 Format must be `(X-@)(X-@)(X-@)...(X-@)*@+(X-@)(X-@)(X-@)...(X-@)*@`
 ### Terminology: 
 `(X-@)(X-@)(X-@)...(X-@)*@` is a word

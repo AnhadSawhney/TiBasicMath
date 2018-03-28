@@ -76,10 +76,10 @@ For best results use the latest version of the firmware which can be installed t
 10. Press send and repeat the process with the other programs.
 
 ### To launch the programs from the calculator:
-1. Press prgm
+1. Press `prgm`
 2. Select the program
-3. Press enter. It should put you back on the default screen
-4. Press enter to run it
+3. Press `enter`. It should put you back on the default screen
+4. Press `enter` to run it
 
 ### To exit the programs at any time press 2nd and mode (quit).
 If you cannot exit by doing that it is probably waiting for you to press enter so press enter and then retry.
@@ -87,29 +87,29 @@ If you cannot exit by doing that it is probably waiting for you to press enter s
 These programs will be erased if the ram on the calculator is reset. To prevent this you can archive them. If you do this they must be unarchived again in order to be run.
 
 ### To archive/unarchive programs on the calculator:
-1. Press 2nd
-2. Press mem (plus)
-3. Select Mem management (2)
-3. Select Prgm (7)
-4. Move the cursor to the program. If it has a star before it it is archived. Press enter to archive/unarchive the selected program.
+1. Press `2nd`
+2. Press `mem` (plus)
+3. Select `Mem management` (2)
+3. Select `Prgm` (7)
+4. Move the cursor to the program. If it has a `*` before it it is archived. Press `enter` to archive/unarchive the selected program.
 
-# USER INPUT: 
-Format must be (X-@)(X-@)(X-@)...(X-@)\*@+(X-@)(X-@)(X-@)...(X-@)\*@
+# USER INPUT FOR SIMPLIFY AND NEWSIMPL: 
+Format must be `(X-@)(X-@)(X-@)...(X-@)*@+(X-@)(X-@)(X-@)...(X-@)*@`
 ### Terminology: 
-(X-@)(X-@)(X-@)...(X-@)\*@ is a word
-(X-@) is a letter
+`(X-@)(X-@)(X-@)...(X-@)*@` is a word
+`(X-@)` is a letter
 
-Each letter is in the format (X-@) where @ is a real number. Everything except @ must remain constant in all the letters.
-If you want to do X+something then make it (X--@). The letters are not separated from each other with anything.
+Each letter is in the format `(X-@)` where `@` is a real number. Everything except `@` must remain constant in all the letters.
+If you want to do X+something then make it `(X--@)`. The letters are not separated from each other with anything.
 
 Several letters strung together is a word. All words must have the same number of letters. 
-The words must end with a coefficient in the form \*@ where @ is a real number. 
-If you do not want to multiply the word by anything end it with \*1. Words are strung together with + and the values of @'s
+The words must end with a coefficient in the form `*@` where `@` is a real number. 
+If you do not want to multiply the word by anything end it with `*1`. Words are strung together with `+` and the values of `@`'s
 in each letter can vary from word to word as well as the coefficient.
 
 ### Examples of valid user input:
-(X-1)(X-2)(X-3)\*2+(X-4)(x-67)(x-12)\*123
+`(X-1)(X-2)(X-3)*2+(X-4)(x-67)(x-12)*123`
 
-(X-1)\*1
+`(X-1)*1`
 
-(X-0.5)(X-1.12)(X--4)\*-12.75+(X-2.1)(X--3)(X--1.09)\*3
+`(X-0.5)(X-1.12)(X--4)*-12.75+(X-2.1)(X--3)(X--1.09)*3`

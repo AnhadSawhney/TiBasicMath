@@ -100,6 +100,7 @@ These programs will be erased if the ram on the calculator is reset. To prevent 
 Format must be `(X-@)(X-@)(X-@)...(X-@)*@+(X-@)(X-@)(X-@)...(X-@)*@`
 ### Terminology: 
 `(X-@)(X-@)(X-@)...(X-@)*@` is a word
+
 `(X-@)` is a letter
 
 Each letter is in the format `(X-@)` where `@` is a real number. Everything except `@` must remain constant in all the letters.

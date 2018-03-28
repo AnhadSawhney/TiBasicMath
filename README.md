@@ -58,6 +58,7 @@ Instructions:
 # Installation:
 To install these programs, you need a usb cable to connect your calculator to a computer and the Ti-Connect software,
 found here: https://education.ti.com/en/software/details/en/B59F6C83468C4574ABFEE93D2BC3F807/swticonnectsoftware
+
 For Ti-84+ce calculators download ti connect ce.
 
 These programs are formatted to work with Ti-84+ce calculators, currently the latest model. 

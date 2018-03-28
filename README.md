@@ -86,7 +86,7 @@ For best results use the latest version of the firmware which can be installed t
 3. Press `enter`. It should put you back on the default screen
 4. Press `enter` to run it
 
-### To exit the programs at any time press 2nd and mode (quit).
+### To exit the programs at any time press `2nd` and `mode` (quit).
 If you cannot exit by doing that it is probably waiting for you to press enter so press enter and then retry.
 
 These programs will be erased if the ram on the calculator is reset. To prevent this you can archive them. If you do this they must be unarchived again in order to be run.

@@ -89,7 +89,7 @@ For best results use the latest version of the firmware which can be installed t
 ### To exit the programs at any time press `2nd` and `mode` (quit).
 If you cannot exit by doing that it is probably waiting for you to press enter so press enter and then retry.
 
-These programs will be erased if the ram on the calculator is reset. To prevent this you can archive them. If you do this they must be unarchived again in order to be run.
+*NOTE: These programs will be erased if the RAM on the calculator is reset. To prevent this you can archive them. If you do this they must be unarchived again in order to be run.*
 
 ### To archive/unarchive programs on the calculator:
 1. Press `2nd`

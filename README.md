@@ -103,6 +103,7 @@ Format must be `(X-@)(X-@)(X-@)...(X-@)*@+(X-@)(X-@)(X-@)...(X-@)*@`
 
 `(X-@)` is a letter
 
+### Rules:
 Each letter is in the format `(X-@)` where `@` is a real number. Everything except `@` must remain constant in all the letters.
 If you want to do X+something then make it `(X--@)`. The letters are not separated from each other with anything.
 

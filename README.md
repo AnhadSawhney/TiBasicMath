@@ -6,6 +6,7 @@ A collection of programs written in Ti-Basic to solve precalculus problems
 Calculates the unsimplified equation of a function using lagrange interpolation given any number of points.
 Since the equations can get very long it prints each part on a separate line and prints the coefficients separately.
 The full function is stored in str2.
+
 Instructions:
 1. Run the program.
 2. Specify the number of points (length). Keep in mind a line is defined by 2 points a quadratic by 3, cubic by 4 etc.
@@ -14,7 +15,9 @@ Instructions:
 
 ### Simplify: 
 Takes the output of the lagrange program (the function stored in str2) or user input and simplifies it.
+
 *NOTE: Simplify is not capable of processing functions more complex than cubics.*
+
 Instructions:
 1. Run the program
 2. Select user input or existing (lagrange) output
@@ -22,7 +25,9 @@ Instructions:
 
 ### Newsimpl: 
 Takes the output of the lagrange program (the function stored in str2) or user input and simplifies it.
+
 *NOTE: This program is not compatible with old firmware versions (ie. ones that dont have tostring(). This program can deal with functions up to the 5th degree (quintics).*
+
 Instructions:
 1. Run the program
 2. Select user input or existing (lagrange) output
@@ -32,7 +37,9 @@ Instructions:
 Given 3 measurements of a triangle with at least one side, (either 2 sides + one angle, 2 angles + one side or 3 sides),
 calculates the other 3 measurements along with the area and radius of the inscribed circle. Will calculate both cases of SSA.
 (Uses law of sines/cosines and heron's formula)
+
 *NOTE: Calculator and angles must be in degree mode.*
+
 Instructions:
 1. Run the program
 2. Enter angles. (Enter 0 if you want the calculator to find the value)
@@ -40,6 +47,7 @@ Instructions:
 
 ### Sinusoid: 
 Given the coordinates of two adjacent peaks, find the equation of the sinusoid function (in the form f(x)=Asin(B(X+C))+D), with both sin and cos. 
+
 Instructions:
 1. Run the program
 2. Enter x-coordinate of peak 1

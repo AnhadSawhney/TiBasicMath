@@ -49,7 +49,7 @@ If you cannot exit by doing that it is probably waiting for you to press enter s
 ### Lagrange: 
 Calculates the unsimplified equation of a function using lagrange interpolation given any number of points.
 Since the equations can get very long it prints each part on a separate line and prints the coefficients separately.
-The full function is stored in str2.
+The full function is stored in `str2`.
 
 Instructions:
 1. Run the program.
@@ -58,7 +58,7 @@ Instructions:
 4. Enter y coordinates of all points
 
 ### Simplify: 
-Takes the output of the lagrange program (the function stored in str2) or user input and simplifies it.
+Takes the output of the lagrange program (the function stored in `str2`) or user input and simplifies it.
 
 *NOTE: Simplify is not capable of processing functions more complex than cubics.*
 
@@ -69,7 +69,7 @@ Instructions:
 4. The output function will be stored in the `Y=` menu
 
 ### Newsimpl: 
-Takes the output of the lagrange program (the function stored in str2) or user input and simplifies it.
+Takes the output of the lagrange program (the function stored in `str2`) or user input and simplifies it.
 
 *NOTE: This program is not compatible with old firmware versions (ie. ones that dont have `tostring(`. This program can deal with functions up to the 5th degree (quintics).*
 
@@ -105,12 +105,27 @@ Instructions:
 4. Enter x-coordinate of peak 2
 5. Enter y-coordinate of peak 2
 
+### Invest:
+Given all but one of the following: principal (starting amount), years invested, annual percentage rate, number of times compounded per year, and ending value, find the missing value. 
+
+*NOTE: Only one value can be marked as unknown.*
+
+Instructions:
+1. Run the program
+2. Enter principal (Enter 0 if this value is unknown and you want the calculator to find it)
+3. Enter years (Enter 0 if this value is unknown and you want the calculator to find it)
+4. Enter annual percentage rate (Enter 0 if this value is unknown and you want the calculator to find it. Enter the entire rate without the perentage sign. Ex: for 9.75% enter 9.75)
+5. Enter number of times compounded per year. (Enter 0 if this value is unknown and you want the calculator to find it. Enter -1 if the compounding is continuous.)
+6. Enter ending value (Enter 0 if this value is unknown and you want the calculator to find it)
+
 # User Input Formatting for SIMPLIFY and NEWSIMPL: 
 Format must be `(X-@)(X-@)(X-@)...(X-@)*@+(X-@)(X-@)(X-@)...(X-@)*@`
-### Terminology: 
-`(X-@)(X-@)(X-@)...(X-@)*@` is a word
+### Info: 
+`(X-@)(X-@)(X-@)...(X-@)*@` is referred to as a word
 
-`(X-@)` is a letter
+`(X-@)` is referred to as a letter
+
+@ is any real number. Replace this with a number when entering it in
 
 ### Rules:
 Each letter is in the format `(X-@)` where `@` is a real number. Everything except `@` must remain constant in all the letters.

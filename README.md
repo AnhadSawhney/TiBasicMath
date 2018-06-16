@@ -1,7 +1,49 @@
 # TiBasicMath
-A collection of programs written in Ti-Basic to solve precalculus problems. 
+A collection of programs written in Ti-Basic to solve precalculus problems. All of these programs are relevant to the Math 3 course.
+
+## Introduction:
+These programs are written and formatted for 3 different calculators: The ti 84 plus and the ti 84 plus ce / ti 84 plus c silver edition. Only used the files in the proper folder otherwise the text will be cut off. It is reccomended to use the latest firmware version when running these programs, although some of them will work without it.
 
 *NOTE: NEGATIVE NUMBERS IN ALL USER INPUT ARE ENTERED USING THE NEGATIVE NUMBER SIGN POSITIONED AT THE BOTTOM RIGHT OF THE KEYPAD.*
+*READ THE ENTIRE README SO YOU ARE FAMILIAR WITH THE CAPABILITIES AND LIMITATIONS OF THESE PROGRAMS AND CAN USE THEM EFFECTIVELY.*
+
+# Installation and Memory Management
+
+To install these programs, you need a usb cable to connect your calculator to a computer and the Ti-Connect software,
+found here: https://education.ti.com/en/software/details/en/CA9C74CAD02440A69FDC7189D7E1B6C2/swticonnectcesoftware
+
+All of the three calculators mentioned above use the ti connect ce software. Install the version of the software that is made for your operating system (windows/osx/linux).
+
+### To transfer these programs to your calculator:
+1. Click "clone or download" at the top right corner, then click download zip
+2. Extract the zip archive (Windows: right click and select extract all, Osx: double click)
+2. Then open Ti connect and plug in your calculator with the usb cable.
+3. Click on calculator explorer on the left side.
+4. At the top should be a series of icons, select the one that looks like a laptop with an arrow pointing out.
+5. Navigate to the folder you downloaded and select the program you want to send.
+6. Click open. It should pull up a dialog box. 
+7. Usually the default values are correct but just in case the name should be the same as the filename (without .8xp) and the location should be RAM. 
+8. If you have multiple calculators connected select the one you want.
+9. Check replace existing content with the same name if you are upgrading a program.
+10. Press send and repeat the process with the other programs.
+
+### To launch the programs from the calculator:
+1. Press `prgm`
+2. Select the program
+3. Press `enter`. It should put you back on the default screen
+4. Press `enter` again to run it
+
+### To exit the programs at any time press `2nd` and `mode` (quit).
+If you cannot exit by doing that it is probably waiting for you to press enter so press enter and then retry.
+
+*NOTE: These programs will be erased if the RAM on the calculator is reset. To prevent this you can archive them. If you do this they must be unarchived again in order to be run.*
+
+### To archive/unarchive programs on the calculator:
+1. Press `2nd`
+2. Press `mem` (plus)
+3. Select `Mem management` (2)
+3. Select `prgm` (7)
+4. Move the cursor to the program. If it has a `*` before it it is archived. Press `enter` to archive/unarchive the selected program.
 
 # Programs:
 ### Lagrange: 
@@ -22,8 +64,9 @@ Takes the output of the lagrange program (the function stored in str2) or user i
 
 Instructions:
 1. Run the program
-2. Select user input or existing (lagrange) output
+2. Select user input or existing output (only choose existing output if you have just run the lagrange program)
 3. Enter user input if selected (See USER INPUT at bottom)
+4. The output function will be stored in the `Y=` menu
 
 ### Newsimpl: 
 Takes the output of the lagrange program (the function stored in str2) or user input and simplifies it.
@@ -32,15 +75,18 @@ Takes the output of the lagrange program (the function stored in str2) or user i
 
 Instructions:
 1. Run the program
-2. Select user input or existing (lagrange) output
+2. Select user input or existing output (only choose existing output if you have just run the lagrange program)
 3. Enter user input if selected (See USER INPUT at bottom)
+4. The output function will be stored in the `Y=` menu
 
 ### Triangle: 
 Given 3 measurements of a triangle with at least one side, (either 2 sides + one angle, 2 angles + one side or 3 sides),
 calculates the other 3 measurements along with the area and radius of the inscribed circle. Will calculate both cases of SSA.
 (Uses law of sines/cosines and heron's formula)
+If all sides and angles are entered the calculator will perform a series of tests to see if the triangle is valid. 
+(Ex: angles sum to 180)
 
-*NOTE: Calculator and angles must be in degree mode.*
+*NOTE: Calculator must be in degree mode. For ti 84 plus ce calculators the mode is changed automatically*
 
 Instructions:
 1. Run the program
@@ -50,7 +96,7 @@ Instructions:
 ### Sinusoid: 
 Given the coordinates of two adjacent peaks, find the equation of the sinusoid function (in the form `f(x)=Asin(B(X+C))+D)`), with both sin and cos. 
 
-*NOTE: This program should be run in radian mode.*
+*NOTE: Calculator must be in radian mode. For ti 84 plus ce calculators the mode is changed automatically*
 
 Instructions:
 1. Run the program
@@ -58,45 +104,6 @@ Instructions:
 3. Enter y-coordinate of peak 1
 4. Enter x-coordinate of peak 2
 5. Enter y-coordinate of peak 2
-
-# Installation:
-To install these programs, you need a usb cable to connect your calculator to a computer and the Ti-Connect software,
-found here: https://education.ti.com/en/software/details/en/B59F6C83468C4574ABFEE93D2BC3F807/swticonnectsoftware
-
-For Ti-84+ce calculators download ti connect ce.
-
-These programs are formatted to work with Ti-84+ce calculators, currently the latest model. 
-For best results use the latest version of the firmware which can be installed through ti connect as well.
-
-### To transfer these programs to your calculator:
-1. download the zip file and extract it anywhere on your computer.
-2. Then open Ti connect and plug in your calculator with the usb cable.
-3. Click on calculator explorer on the left side.
-4. At the top should be a series of icons, select the one that looks like a laptop with an arrow pointing out.
-5. Navigate to the folder you downloaded and select the program you want to send.
-6. Click open. It should pull up a dialog box. 
-7. Usually the default values are correct but just in case the name should be the same as the filename (without .8xp) and the location should be RAM. 
-8. If you have multiple calculators connected select the one you want.
-9. Check replace existing content with the same name if you are upgrading a program.
-10. Press send and repeat the process with the other programs.
-
-### To launch the programs from the calculator:
-1. Press `prgm`
-2. Select the program
-3. Press `enter`. It should put you back on the default screen
-4. Press `enter` to run it
-
-### To exit the programs at any time press `2nd` and `mode` (quit).
-If you cannot exit by doing that it is probably waiting for you to press enter so press enter and then retry.
-
-*NOTE: These programs will be erased if the RAM on the calculator is reset. To prevent this you can archive them. If you do this they must be unarchived again in order to be run.*
-
-### To archive/unarchive programs on the calculator:
-1. Press `2nd`
-2. Press `mem` (plus)
-3. Select `Mem management` (2)
-3. Select `prgm` (7)
-4. Move the cursor to the program. If it has a `*` before it it is archived. Press `enter` to archive/unarchive the selected program.
 
 # User Input Formatting for SIMPLIFY and NEWSIMPL: 
 Format must be `(X-@)(X-@)(X-@)...(X-@)*@+(X-@)(X-@)(X-@)...(X-@)*@`

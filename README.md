@@ -66,18 +66,18 @@ Instructions:
 1. Run the program
 2. Select user input or existing output (only choose existing output if you have just run the lagrange program)
 3. Enter user input if selected (See USER INPUT at bottom)
-4. The output function will be stored in the `Y=` menu
+4. The output function will be stored in the `y=` menu
 
 ### Newsimpl: 
 Takes the output of the lagrange program (the function stored in `str2`) or user input and simplifies it.
 
-*NOTE: This program is not compatible with old firmware versions (ie. ones that dont have `tostring(`. This program can deal with functions up to the 5th degree (quintics).*
+*NOTE: This program is not compatible with old firmware versions (ie. ones that dont have `tostring(`. This program can deal with functions up to the 5th degree (quintics)).*
 
 Instructions:
 1. Run the program
 2. Select user input or existing output (only choose existing output if you have just run the lagrange program)
 3. Enter user input if selected (See USER INPUT at bottom)
-4. The output function will be stored in the `Y=` menu
+4. The output function will be stored in the `y=` menu
 
 ### Triangle: 
 Given 3 measurements of a triangle with at least one side, (either 2 sides + one angle, 2 angles + one side or 3 sides),

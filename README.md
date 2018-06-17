@@ -123,7 +123,7 @@ Instructions:
 6. Enter ending value (Enter 0 if this value is unknown and you want the calculator to find it)
 
 # User Input Formatting for SIMPLIFY and NEWSIMPL: 
-Format must be `(X-@)(X-@)(X-@)...(X-@)*@+(X-@)(X-@)(X-@)...(X-@)*@`
+Format must be `(X-@)(X-@)(X-@)...(X-@)*@+...+(X-@)(X-@)(X-@)...(X-@)*@`
 ### Info: 
 `(X-@)(X-@)(X-@)...(X-@)*@` is referred to as a word
 

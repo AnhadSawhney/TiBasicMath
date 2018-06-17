@@ -128,7 +128,7 @@ Format must be `(X-@)(X-@)(X-@)...(X-@)*@+(X-@)(X-@)(X-@)...(X-@)*@`
 
 `(X-@)` is referred to as a letter
 
-@ is any real number. Replace this with a number when entering it in
+`@` is any real number. Replace this with a number when entering it in
 
 ### Rules:
 Each letter is in the format `(X-@)` where `@` is a real number. Everything except `@` must remain constant in all the letters.

@@ -2,9 +2,9 @@
 A collection of programs written in Ti-Basic to solve precalculus problems. All of these programs are relevant to the Math 3 course.
 
 ## Introduction:
-These programs are written and formatted for 3 different calculators: The ti 84 plus and the ti 84 plus ce / ti 84 plus c silver edition. Only used the files in the proper folder otherwise the text will be cut off. It is reccomended to use the latest firmware version when running these programs, although some of them will work without it.
+These programs are written and formatted for 3 different calculators: The Ti 84+ and the Ti 84+ ce / Ti 84+ c silver edition. Only used the files in the proper folder otherwise the text will be cut off. It is reccomended to use the latest firmware version when running these programs, although some of them will work without it.
 
-If you are using a ti 84 plus calculator beware erros and formatting issues. I do not own this model and cannot test the programs.
+If you are using a ti 84 plus calculator beware errors and formatting issues. I do not own this calculator model and cannot test the programs.
 
 *NOTE: NEGATIVE NUMBERS IN ALL USER INPUT ARE ENTERED USING THE NEGATIVE NUMBER SIGN POSITIONED AT THE BOTTOM RIGHT OF THE KEYPAD.*
 *READ THE ENTIRE README SO YOU ARE FAMILIAR WITH THE CAPABILITIES AND LIMITATIONS OF THESE PROGRAMS AND CAN USE THEM EFFECTIVELY.*

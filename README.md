@@ -43,9 +43,8 @@ To update the calculator's operating system, visit this webpage https://educatio
 ### To exit the programs at any time press `2nd` and `mode` (quit).
 If you cannot exit by doing that it is probably waiting for you to press enter so press enter and then retry.
 
-*NOTE: These programs will be erased if the RAM on the calculator is reset. To prevent this you can archive them. If you do this they must be unarchived again in order to be run.*
-
 ### To archive/unarchive programs on the calculator:
+*NOTE: These programs will be erased if the RAM on the calculator is reset. To prevent this you can archive them. If you do this they must be unarchived again in order to be run.*
 1. Press `2nd`
 2. Press `mem` (plus)
 3. Select `Mem management` (2)
@@ -53,6 +52,15 @@ If you cannot exit by doing that it is probably waiting for you to press enter s
 4. Move the cursor to the program. If it has a `*` before it it is archived. Press `enter` to archive/unarchive the selected program.
 
 # Programs:
+### Growth
+This program is not intended for use in math, rather Biology. It will calculate the equations for the logistic and exponential population growth models.
+
+Instructions:
+1. Run the program
+2. Choose Exponential or Logistic growth by entering 1 or 2
+3. Enter the required information
+4. The output function will be stored in the `y=` menu
+
 ### Lagrange: 
 Calculates the unsimplified equation of a function using lagrange interpolation given any number of points.
 Since the equations can get very long it prints each part on a separate line and prints the coefficients separately.

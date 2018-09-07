@@ -1,5 +1,5 @@
 # TiBasicMath
-A collection of programs written in Ti-Basic to solve precalculus problems. All of these programs are relevant to the Math 3 course.
+A collection of programs written in Ti-Basic to solve precalculus problems. Most of these programs are relevant to the Math 3 course.
 
 ## Introduction:
 These programs are written and formatted for 3 different calculators: The Ti 84+ and the Ti 84+ ce / Ti 84+ c silver edition. Only used the files in the proper folder otherwise the text will be cut off. It is reccomended to use the latest firmware version when running these programs, although some of them will work without it.
@@ -8,6 +8,7 @@ If you are using a ti 84 plus calculator beware errors and formatting issues. I 
 
 *NOTE: NEGATIVE NUMBERS IN ALL USER INPUT ARE ENTERED USING THE NEGATIVE NUMBER SIGN POSITIONED AT THE BOTTOM RIGHT OF THE KEYPAD.*
 *READ THE ENTIRE README SO YOU ARE FAMILIAR WITH THE CAPABILITIES AND LIMITATIONS OF THESE PROGRAMS AND CAN USE THEM EFFECTIVELY.*
+*IT IS HIGHLY RECCOMENDED TO UPDATE THE DEVICE OS BEFORE USING THESE PROGRAMS*
 
 # Installation and Memory Management
 
@@ -15,6 +16,10 @@ To install these programs, you need a usb cable to connect your calculator to a 
 found here: https://education.ti.com/en/software/details/en/CA9C74CAD02440A69FDC7189D7E1B6C2/swticonnectcesoftware
 
 All of the three calculators mentioned above use the ti connect ce software. Install the version of the software that is made for your operating system (windows/osx/linux).
+
+### To update the calculator OS
+
+To update the calculator's operating system, visit this webpage https://education.ti.com/software/, select your calculator and download the os and apps bundle if availible, otherwise just the os. Then, connect the calculator to your computer with the USB cable and click Actions -> Send OS/Bundle to calculator. Finally, select the file you downloaded and wait for the installation to complete.
 
 ### To transfer these programs to your calculator:
 1. Click "clone or download" at the top right corner, then click download zip

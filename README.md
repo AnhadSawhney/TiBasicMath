@@ -61,7 +61,7 @@ Instructions:
 3. Enter the required information
 4. The output function will be stored in the `y=` menu
 
-### Lagrange: 
+### Lagrange
 Calculates the unsimplified equation of a function using lagrange interpolation given any number of points.
 Since the equations can get very long it prints each part on a separate line and prints the coefficients separately.
 The full function is stored in `str2`.
@@ -72,7 +72,7 @@ Instructions:
 3. Enter x coordinates of all points
 4. Enter y coordinates of all points
 
-### Simplify: 
+### Simplify
 Takes the output of the lagrange program (the function stored in `str2`) or user input and simplifies it.
 
 *NOTE: Simplify is not capable of processing functions more complex than cubics.*
@@ -83,7 +83,7 @@ Instructions:
 3. Enter user input if selected (See USER INPUT at bottom)
 4. The output function will be stored in the `y=` menu
 
-### Newsimpl: 
+### Newsimpl
 Takes the output of the lagrange program (the function stored in `str2`) or user input and simplifies it.
 
 *NOTE: This program is not compatible with old firmware versions (ie. ones that dont have `tostring(`. This program can deal with functions up to the 5th degree (quintics)).*
@@ -94,7 +94,7 @@ Instructions:
 3. Enter user input if selected (See USER INPUT at bottom)
 4. The output function will be stored in the `y=` menu
 
-### Triangle: 
+### Triangle
 Given 3 measurements of a triangle with at least one side, (either 2 sides + one angle, 2 angles + one side or 3 sides),
 calculates the other 3 measurements along with the area and radius of the inscribed circle. Will calculate both cases of SSA.
 (Uses law of sines/cosines and heron's formula)
@@ -108,7 +108,7 @@ Instructions:
 2. Enter angles. (Enter `0` if you want the calculator to find the value)
 3. Enter sides. (Enter `0` if you want the calculator to find the value)
 
-### Sinusoid: 
+### Sinusoid
 Given the coordinates of two adjacent peaks, find the equation of the sinusoid function (in the form `f(x)=Asin(B(X+C))+D)`), with both sin and cos. 
 
 *NOTE: Calculator must be in radian mode. For ti 84 plus ce calculators the mode is changed automatically*
@@ -120,7 +120,7 @@ Instructions:
 4. Enter x-coordinate of peak 2
 5. Enter y-coordinate of peak 2
 
-### Invest:
+### Invest
 Given all but one of the following: principal (starting amount), years invested, annual percentage rate, number of times compounded per year, and ending value, find the missing value. 
 
 *NOTE: Only one value can be marked as unknown.*
